@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHiLAN</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #2e7d32;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #c8e6c9;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #e8f5e9;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            border-bottom: 2px solid #2e7d32;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #1b5e20;
+        }
+
+        .leaders-gallery {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .leader {
+            text-align: center;
+        }
+
+        .leader img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+
+        .leader img:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 30%;
+            height: auto;
+            margin: 10px 0;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2e7d32;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        #pyscript-container {
+            background: none;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="leaders.html">Leaders</a></li>
+        <li><a href="designs.html">Designs</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61561040411635&mibextid=ZbWKwL">About US</a></li>
+    </ul>
+</nav>
+
+<header id="home">
+    <img src="logo ghilan.png" alt="Team Logo" class="logo">
+    <h1>Welcome to GHiLAN</h1>
+</header>
+
+<section id="leaders">
+    <h2>Current Team Leaders</h2>
+    <div class="leaders-gallery">
+        <div class="leader">
+            <img src="Member/ISLAM.jpg" alt="Leader 1">
+            <p>المؤسس اسلام</p>
+        </div>
+        <div class="leader">
+            <img src="Member/LOUAI.jpg" alt="Leader 2">
+            <p> قائد الغيلان</p>
+        </div>
+        <div class="leader">
+            <img src="Member/AMINE.jpg" alt="Leader 3">
+            <p> نائب الغيلان</p>
+        </div>
+    </div>
+</section>
+
+<section id="designs">
+    <h2>MY Designs</h2>
+    <div class="gallery">
+        <img src="Hatem/Designs Hatem.png" alt="تصميم 1">
+        <img src="Saka/Saka00.jpg" alt="تصميم 2">
+        <img src="Designs groupe.jpg" alt="تصميم 3">
+    </div>
+</section>
+
+<section id="goals">
+    <h2>Goals</h2>
+    <ul>
+        <li>ثلاثية افضل قائد على التوالي</li>
+        <li>تصنيف 2024</li>
+        <li>تحقيق اول سوبر للفريق</li>
+        <li>ضمان حفاظ الفريق على قوته وثباته</li>
+        <li>الحفاظ على الرابطة الاخوية بين الاعضاء</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy;       </p>
+</footer>
+
+<div id="pyscript-container">
+    <py-script>
+        display(" 2024 AMINE AND FARES All rights reserved")
+        display("لا تنسو الدعاء بالرحمه لوالدة وعم لؤي")
+    </py-script>
+</div>
+</body>
+</html>
+
+

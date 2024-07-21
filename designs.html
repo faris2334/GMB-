@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبة التصميمات</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card .info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card .info h2 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .card .info p {
+            margin: 0;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .card .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .card .buttons a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .card .buttons a.view {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .card .buttons a.download {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .card .buttons a.view:hover {
+            background-color: #0056b3;
+        }
+
+        .card .buttons a.download:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <a href="t1.html" class="back-button">الرجوع إلى الصفحة</a>
+    <h1>مكتبة التصميمات</h1>
+    <div class="gallery">
+        
+        <div class="card">
+            <img src="Saka/saka0.jpg" alt="تصميم 1">
+            <div class="info">
+                <h2>تصميم التصنيف</h2>
+                <a href="https://www.facebook.com/Sakamoto.me"> بواسطة: Sakamoto</a> 
+            </div>
+            <div class="buttons">
+                <a href="saka0.jpg" class="view" target="_blank">مشاهدة</a>
+                <a href="saka0.jpg" class="download" download>تنزيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Saka/Saka1.jpg" alt="تصميم 2">
+            <div class="info">
+                <h2>تصميم التصنيف </h2>
+                <a href="https://www.facebook.com/Sakamoto.me"> بواسطة: Sakamoto</a> 
+            </div>
+            <div class="buttons">
+                <a href="Saka1.jpg" class="view" target="_blank">مشاهدة</a>
+                <a href="Saka1.jpg" class="download" download>تنزيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Saka/saka3.jpg" alt="تصميم 2">
+            <div class="info">
+                <h2>تصميم التصنيف </h2>
+                 <a href="https://www.facebook.com/Sakamoto.me"> بواسطة: Sakamoto</a> </p>
+            </div>
+            <div class="buttons">
+                <a href="Saka2.jpg" class="view" target="_blank">مشاهدة</a>
+                <a href="Saka2.jpg" class="download" download>تنزيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Hatem/Hatem0.png" alt="تصميم 2">
+            <div class="info">
+                <h2>تصميم الاكادمية</h2>
+                <a href="https://www.facebook.com/3arbouch.908347"> بواسطة: Hatem</a>
+            </div>
+            <div class="buttons">
+                <a href="Hatem0.png" class="view" target="_blank">مشاهدة</a>
+                <a href="Hatem0.png" class="download" download>تنزيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Hatem/hatem2.png" alt="تصميم 2">
+            <div class="info">
+                <h2>تصميم التصنيف </h2>
+                <a href="https://www.facebook.com/3arbouch.908347"> بواسطة: Hatem</a>
+            </div>
+            <div class="buttons">
+                <a href="Hatem1.png" class="view" target="_blank">مشاهدة</a>
+                <a href="Hatem1.png" class="download" download>تنزيل</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Hatem/Hatem1.png" alt="تصميم 2">
+            <div class="info">
+                <h2>تصميم التصنيف </h2>
+                <a href="https://www.facebook.com/3arbouch.908347"> بواسطة: Hatem</a>
+            </div>
+            <div class="buttons">
+                <a href="Hatem1.png" class="view" target="_blank">مشاهدة</a>
+                <a href="Hatem1.png" class="download" download>تنزيل</a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
